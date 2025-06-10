@@ -33,6 +33,19 @@ Relative actions order via a sub branch:
 12. git tag ver.1.0.3 - to tag the last commit before pushing
 13. git push origin --tags   - pushes all the tags not sent to github
 
+------------------
+# Working with Github (connecting local repo to github directly without cloning)
+------------------
+1. git init . # creating local repo
+2. git checkout -b main
+3. git remote add main git@github.com:ritchie229/train.git
+4. making changes, editing files, adding/removing etc.
+5. git commit -a -m "message"
+6. git push -f origin main
+------------------ 
+
+
+
 
 git log (git log -2 -p)
   - to chow all commits
