@@ -60,4 +60,4 @@ git reset --hard HEAD~
 git reset --soft HEAD~
   - to remove the last comming (HEAD~3 - last three commits). not touching the changes
 git push origin main --force
-  - to remove commit info from github
+  - to remove commit info containing sensitive data from github
