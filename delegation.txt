@@ -1,0 +1,5 @@
+Сервер Rocky и его nodename Kuber-Rocky
+Сервер OpenSUSE и его nodename OpenSUSE-VM
+Сервер Ubuntu и его nodename kuber-serv
+Сервер Rocky-Jira и его nodename jira
+Сервер Rocky-DB и его nodename Rocky-DB
