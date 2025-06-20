@@ -1,6 +1,7 @@
 VIEW THIS IN CODE MODE
 git-scm.com
-
+--,-'<@
+git config --global init.defaultBranch main
 git config --global user.name ritchie229
 git config --global user.email rishat.mukhtarov@gmail.com
 git config --list
@@ -13,11 +14,11 @@ git checkout <new_branch_name>
   - creating and passing to new branch
 git checkout -b <new_branch_name>
   - creating and passing to new branch
-git branch - <branch_name>
+git branch -d <branch_name>
   - remove bransh after committing or pushing
 git branch -D <branch_name>
   - remove branch before committing or pushing (hard)
-
+git branch -m <name> - renaming the current branches name
 
 Relative actions order via a sub branch:
 
