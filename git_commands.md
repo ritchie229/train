@@ -1,4 +1,5 @@
 VIEW THIS IN CODE MODE
+git-scm.com
 
 git branch
   - show active/passive branshes
@@ -43,6 +44,24 @@ Relative actions order via a sub branch:
 5. git commit -a -m "message"
 6. git push -f origin main
 ------------------ 
+# Aliases
+__________________
+1. git config --global alias.ci 'commit -a' # git commit -a
+2. git config --global alias.co 'checkout'
+3. git config --global alias.br 'branch'
+4. git config --global alias.st 'status'
+5. git config --global alias.lol 'log --oneline --graph --decorate'
+
+git commit --amend
+git ci --fixup=a3f9129
+git rebase -i --autosquash HEAD~2
+git revert 69ecf26
+git reset --hard 6f67ddc
+git reset --soft 6f67ddc
+git diff --staged
+git cherry-pick 2aed43e
+git rebase slave HEAD~1
+git co 72d4c62
 
 
 
