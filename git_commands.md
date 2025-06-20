@@ -1,6 +1,11 @@
 VIEW THIS IN CODE MODE
 git-scm.com
 
+git config --global user.name ritchie229
+git config --global user.email rishat.mukhtarov@gmail.com
+git config --list
+
+
 git branch
   - show active/passive branshes
 git branch <new_branch_name>
@@ -23,8 +28,8 @@ Relative actions order via a sub branch:
 5. git commit -m "message"   -------				  |
 6. git checkout main                |				  |
 7. git merge subbranch              |				  5. git branch -D subbranch
-8. git branch -d subbranch	    6. git push origin
-				    7. merge in github gui 
+8. git branch -d subbranch	        6. git push origin
+				                            7. merge in github gui 
                                     8. git push origin --delete subbranch
 9. git tag ver.1.0
 10. git push origin ver.1.0
