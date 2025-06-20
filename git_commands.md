@@ -68,6 +68,7 @@ git diff --staged
 git cherry-pick 2aed43e
 git rebase slave HEAD~1
 git co 72d4c62
+git cat-file -p 1f940ed
 
 
 
